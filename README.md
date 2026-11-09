@@ -18,7 +18,7 @@ O objetivo da equipe foi juntar, em um único programa, os conteúdos estudados 
 
 ## O que o programa faz
 
-Ao iniciar o A.D.P., o usuário encontra um menu com cinco opções e o comando para sair. Primeiro, cadastra quatro informações: energia disponível, geração de energia, consumo de energia e velocidade do vento. Depois, pode consultar cada análise separadamente.
+Ao iniciar o A.D.P o usuário encontra um menu com cinco opções e o comando para sair. Primeiro cadastra quatro informações: energia disponível, geração de energia, consumo de energia e velocidade do vento. Depois, pode consultar cada análise separadamente.
 
 A opção **Analisar energia** compara geração e consumo. Se o consumo for maior, aparece um alerta; se a geração superar o consumo, o programa sugere armazenar o excedente; se os valores forem iguais, informa equilíbrio.
 
