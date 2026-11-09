@@ -18,7 +18,7 @@ O objetivo da equipe foi juntar, em um único programa, os conteúdos estudados 
 
 ## O que o programa faz
 
-Ao iniciar o A.D.P o usuário encontra um menu com cinco opções e o comando para sair. Primeiro cadastra quatro informações: energia disponível, geração de energia, consumo de energia e velocidade do vento. Depois, pode consultar cada análise separadamente.
+Ao iniciar o A.D.P., o usuário encontra um menu com cinco opções e o comando para sair. Primeiro, cadastra quatro informações: energia disponível, geração de energia, consumo de energia e velocidade do vento. Depois, pode consultar cada análise separadamente.
 
 A opção **Analisar energia** compara geração e consumo. Se o consumo for maior, aparece um alerta; se a geração superar o consumo, o programa sugere armazenar o excedente; se os valores forem iguais, informa equilíbrio.
 
@@ -86,13 +86,13 @@ Trata-se de uma demonstração didática de regressão linear. Os três registro
 python -m pip install numpy
 ```
 
-Em seguida, rode o arquivo principal. Por exemplo, como ele está salvo como `sistema_adp.py`:
+Em seguida, rode o arquivo principal. Por exemplo, caso ele esteja salvo como `main.py`:
 
 ```bash
-python sistema_adp.py
+python main.py
 ```
 
-Se o seu ambiente usa `python3`, substitua `python` por `python3` nos comandos. O arquivo principal está na raiz do repositório.
+Se o seu ambiente usa `python3`, substitua `python` por `python3` nos comandos. O nome `main.py` é apenas um exemplo; utilize o nome real do arquivo enviado ao repositório.
 
 ## Exemplo de entrada e saída
 
@@ -132,6 +132,10 @@ A implementação usa listas, dicionários, funções, `if/elif/else`, o operado
 O A.D.P. reúne três tarefas que antes poderiam ser tratadas separadamente: acompanhar dados, aplicar regras e fazer previsões. Com isso, a equipe conseguiu demonstrar, em um mesmo programa, conceitos de programação estruturada, organização de informações, lógica e modelagem matemática.
 
 O sistema ainda é um protótipo acadêmico. Não recebe leituras de sensores, não mantém histórico de cadastros entre execuções, não calcula reservas acumuladas e não aciona sistemas físicos. Como evolução, seria possível salvar medições, validar limites de entrada, ampliar o conjunto de dados da regressão e simular a mudança de estado dos subsistemas quando uma regra de economia fosse acionada.
+
+## Repositório oficial
+
+O código e a documentação deste projeto estão disponíveis no GitHub: [Sistema A.D.P. — Colônia de Marte](https://github.com/YagoSDev/Sistema_ADP_Colonia_Marte).
 
 ## Relatório técnico
 
