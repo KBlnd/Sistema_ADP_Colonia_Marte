@@ -132,8 +132,8 @@ O programa confirma o cadastro e compara o que o modelo previa com o valor obser
 [OK] Dados cadastrados e histórico atualizado com sucesso!
 
 Verificação do modelo (antes deste registro):
-E�lica prevista                   27.5
-E�lica observada                  20.0
+Eólica prevista                   27.5
+Eólica observada                  20.0
 Diferença                          7.5
 ```
 
@@ -224,7 +224,6 @@ O código e a documentação deste projeto estão disponíveis no GitHub: [Siste
 
 A explicação acadêmica detalhada do projeto está no documento **Relatório Técnico — Etapa 3 — Sistema A.D.P.**. O PDF apresenta a organização dos dados, as regras, a previsão, exemplos e as limitações da implementação.
 
-Para disponibilizá-lo neste repositório, envie o arquivo `Relatorio_FIAP_Etapa3_Sistema_ADP.pdf` junto ao código e ao README. Depois, este link funcionará:
 
 [Consultar relatório técnico (PDF)](./Relatorio_FIAP_Etapa3_Sistema_ADP.pdf)
 
